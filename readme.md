@@ -6,12 +6,14 @@ What we do is detect the current battery percentage of the device and based on t
 The higher our battery percentage, the more frequently we call the API.
 
 ##Live Example##
-I've created a live example so you can see this in action.[ Click here to view the example](http://code.runnable.com/VkgLTxB8kPFJTJ5f/output) on my runnable account. 
+I've created a live example so you can see this in action.[ Click here to view the example](http://code.runnable.com/VkfyK7VTxa1Jq_si/using-the-battery-status-api-cat-api-for-php-curl-and-curl) on my runnable account. You just need to press the 'run' button to view it live.  
+
 
 ##Article##
 This example will be part of my upcoming SitePoint article on the API. 
 
 ##Notes##
-The CatAPI doesn't output in JSON so we need to use PHP to cURL to request images in an XML format for processing. If we had JSON we could bypass the need for PHP all together
+
+- The CatAPI doesn't output in JSON so we need to use PHP to cURL to request images in an XML format for processing. If we had JSON we could bypass the need for PHP all together
 
 
